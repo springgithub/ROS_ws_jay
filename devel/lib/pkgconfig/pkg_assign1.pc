@@ -1,0 +1,8 @@
+prefix=/home/jay/ws_jay/devel
+
+Name: pkg_assign1
+Description: Description of pkg_assign1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

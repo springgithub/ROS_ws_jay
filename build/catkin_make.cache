@@ -1,0 +1,2 @@
+pkg_assign1:pkg_test:pkg_testpy
+-DCATKIN_DEVEL_PREFIX=/home/jay/ws_jay/devel -DCMAKE_INSTALL_PREFIX=/home/jay/ws_jay/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/jay/ws_jay/install
+
+Name: pkg_cus_msg
+Description: Description of pkg_cus_msg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

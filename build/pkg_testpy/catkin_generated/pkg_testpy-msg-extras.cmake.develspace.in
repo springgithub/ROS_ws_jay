@@ -1,0 +1,2 @@
+set(pkg_testpy_MESSAGE_FILES "/home/jay/ws_jay/src/pkg_testpy/msg/IoTSensor.msg")
+set(pkg_testpy_SERVICE_FILES "")
