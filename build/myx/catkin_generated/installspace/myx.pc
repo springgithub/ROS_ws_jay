@@ -1,0 +1,8 @@
+prefix=/home/jay/ws_jay/install
+
+Name: myx
+Description: Description of myx
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs message_runtime

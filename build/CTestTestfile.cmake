@@ -5,7 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("pkg_cus_msg")
+subdirs("myx")
+subdirs("testcusmsg")
 subdirs("pkg_assign1")
 subdirs("pkg_test")
-subdirs("pkg_testpy")

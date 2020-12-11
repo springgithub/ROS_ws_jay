@@ -459,6 +459,18 @@ message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
 //Value Computed by CMake
+mysensor_BINARY_DIR:STATIC=/home/jay/ws_jay/build/mysensor
+
+//Value Computed by CMake
+mysensor_SOURCE_DIR:STATIC=/home/jay/ws_jay/src/mysensor
+
+//Value Computed by CMake
+myx_BINARY_DIR:STATIC=/home/jay/ws_jay/build/myx
+
+//Value Computed by CMake
+myx_SOURCE_DIR:STATIC=/home/jay/ws_jay/src/myx
+
+//Value Computed by CMake
 pkg_assign1_BINARY_DIR:STATIC=/home/jay/ws_jay/build/pkg_assign1
 
 //Value Computed by CMake
@@ -508,6 +520,18 @@ rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
+
+//Value Computed by CMake
+testcusmsg_BINARY_DIR:STATIC=/home/jay/ws_jay/build/testcusmsg
+
+//Value Computed by CMake
+testcusmsg_SOURCE_DIR:STATIC=/home/jay/ws_jay/src/testcusmsg
+
+//Value Computed by CMake
+topic01_basics_BINARY_DIR:STATIC=/home/jay/ws_jay/build/topic01_basics
+
+//Value Computed by CMake
+topic01_basics_SOURCE_DIR:STATIC=/home/jay/ws_jay/src/topic01_basics
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
@@ -660,7 +684,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

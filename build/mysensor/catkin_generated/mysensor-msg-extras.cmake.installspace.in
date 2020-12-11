@@ -1,0 +1,2 @@
+set(mysensor_MESSAGE_FILES "msg/IoTSensor.msg")
+set(mysensor_SERVICE_FILES "")

@@ -38,18 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jay/ws_jay/build/pkg_testpy/catkin_generated/installspace/pkg_testpy.pc")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_testpy/cmake" TYPE FILE FILES
-    "/home/jay/ws_jay/build/pkg_testpy/catkin_generated/installspace/pkg_testpyConfig.cmake"
-    "/home/jay/ws_jay/build/pkg_testpy/catkin_generated/installspace/pkg_testpyConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_testpy" TYPE FILE FILES "/home/jay/ws_jay/src/pkg_testpy/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkg_testpy/msg" TYPE FILE FILES "/home/jay/ws_jay/src/pkg_testpy/msg/IoTSensor.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -62,5 +51,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkg_testpy" TYPE PROGRAM FILES "/home/jay/ws_jay/build/pkg_testpy/catkin_generated/installspace/listener_a.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkg_testpy" TYPE PROGRAM FILES "/home/jay/ws_jay/build/pkg_testpy/catkin_generated/installspace/talker_cusmsg.py")
 endif()
 

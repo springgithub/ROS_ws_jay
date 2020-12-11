@@ -131,10 +131,10 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jay/ws_jay/build/gtest/cmake_install.cmake")
-  include("/home/jay/ws_jay/build/pkg_cus_msg/cmake_install.cmake")
+  include("/home/jay/ws_jay/build/myx/cmake_install.cmake")
+  include("/home/jay/ws_jay/build/testcusmsg/cmake_install.cmake")
   include("/home/jay/ws_jay/build/pkg_assign1/cmake_install.cmake")
   include("/home/jay/ws_jay/build/pkg_test/cmake_install.cmake")
-  include("/home/jay/ws_jay/build/pkg_testpy/cmake_install.cmake")
 
 endif()
 
